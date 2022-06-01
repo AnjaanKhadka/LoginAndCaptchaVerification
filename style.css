@@ -1,0 +1,95 @@
+body{
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.LoginContents{
+    background-color: ghostwhite;
+    width: auto;
+    padding: 0px 50px 30px 50px;
+}
+
+.items{
+    width: 450px;
+    /* background-color: ghostwhite; */
+    flex: auto;
+}
+
+.LoginText{
+    text-align: center;
+    font-size: 28px;
+    height: 150px;
+}
+.NamePassText{
+    font-size: 20px;
+}
+.NameText,.PassText{
+    padding-top: 13px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+#UserName,#PasswordID,#PasswordID2,#CaptchaBox{
+    width: 98%;
+    height: 28px;
+    border-radius: 9px;
+    font-size: 18px;  
+}
+
+
+.Feedback{
+    padding-top: 13px ;
+    color: crimson;
+}
+
+.CaptchaContainer{
+    height:100px;
+    /* background-color:ghostwhite; */
+    display: flex;
+    padding-top: 10px;
+}
+.Captcha{
+    /* background-color: black; */
+    height:100px;
+    width: 420px;
+}
+#CaptchaCanvas{
+    width: 420px;
+    height: 100px;
+    /* background-color: blue; */
+}
+.ReloadBtn{
+    height:30px;
+    width: 30px;
+    font-size: 20px;
+}
+
+.Submit{
+    padding-top: 20px;
+}
+.SubmitButton{
+    background-color: rgb(71, 71, 255);
+    color: white;
+    width: 100%;
+    height: 36px;
+    border-radius: 9px;
+    font-size: 22px; 
+}
+
+
+.Submit :hover{
+    cursor: pointer;
+}
+/* @font-face {
+    font-family: 'CaptFont';
+    src: url('../Fonts/one.ttf');
+} */
+
+
+
