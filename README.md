@@ -1,4 +1,4 @@
-# LoginAndCaptchaVerification
+# Login And Captcha Verification
 This Repo shows the implementation of 
 - Password verification
   - Length of Password
