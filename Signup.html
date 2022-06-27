@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Fonts/Old_typewriter/fontstyle.css">
+</head>
+<body onload="StartUp()">
+
+<div class="MainBody">
+    <div class="container">
+        <div class="LoginContents">
+        <div class="items LoginText"><h1>Sign Up</h1></div>
+        <div class="items NameText"> 
+            <div class="NamePassText">
+                Name
+            </div>          
+        </div>
+        <div class="items NameBox">
+            <input type="text" name="UserName" id="UserName">
+        </div>
+        <div class="items PassText">
+            <div class="NamePassText">
+                Password
+            </div>
+        </div>
+        <div class="items PassBox">
+            <input type="Password" name="Password" id="PasswordID">
+        </div>
+        <div class="items PassText">
+            <div class="NamePassText">
+                Retype Password
+            </div>
+        </div>
+        <div class="items PassBox">
+            <input type="Password" name="Password" id="PasswordID2">
+        </div>
+        <div class="items Feedback" id="FeedbackText">
+            This is Feedback Sample text 
+        </div>
+        <div class="items CaptchaContainer">
+            <div class="Captcha">
+                <canvas id="CaptchaCanvas"></canvas>
+            </div>
+            <div>
+                <input type="button" value="G" class="ReloadBtn" onclick="CaptchaReload()">
+            </div>
+        </div>
+        <div class="items CaptchaBox">
+            <input type="text" name="CaptchaBox" id="CaptchaBox">
+        </div>
+        <div class="items Submit">
+            <input type="button" value="Submit" class="SubmitButton" onclick="SubmitBtnClick()">
+        </div>
+        <div class="items RadioFeedback">
+            <li class="Criteria CrossList" id="LengthVerify">Password should be 8 character long</li>
+            <li class="Criteria CrossList" id="UpperVerify">Uppercase alphabet</li>
+            <li class="Criteria CrossList" id="LowerVerify">Lowercase alphabet</li>
+            <li class="Criteria CrossList" id="NumVerify">Nummeric character</li>
+            <li class="Criteria CrossList" id="CharVerify">Special  character</li>
+        </div>
+    </div>
+    </div>
+</div>
+ 
+
+</body>
+<script src="script.js"></script>
+</html>

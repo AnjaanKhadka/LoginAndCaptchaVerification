@@ -35,7 +35,7 @@ body{
     align-items: center;
 }
 
-#UserName,#PasswordID,#PasswordID2,#CaptchaBox{
+#UserName,#PasswordID,#PasswordID2,#CaptchaBox,#EmailID{
     width: 98%;
     height: 28px;
     border-radius: 9px;
@@ -81,7 +81,22 @@ body{
     border-radius: 9px;
     font-size: 22px; 
 }
+.RadioFeedback{
+    margin-top: 10px;
+}
 
+.RadioFeedback li{
+    padding-top: 5px; 
+    /* list-style-image: url("images/cross.svg") ; */
+}
+
+.CrossList{
+    list-style-image: url("images/cross.svg") ;
+}
+
+.TickList{
+    list-style-image: url("images/tick.svg") ;
+}
 
 .Submit :hover{
     cursor: pointer;
